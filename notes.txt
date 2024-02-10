@@ -1,0 +1,8 @@
+within visual studio once you activate the venv it is automatically activated when you restart it.(I thinks)
+cmd: venv\Scripts\activate
+PowerShell: venv\Scripts\Activate.ps1
+
+tut1:
+The application will exist in a package. In Python, a subdirectory that includes a __init__.py file is considered a package, and can be imported. When you import a package, the __init__.py executes and defines what symbols the package exposes to the outside world.
+
+One aspect that may seem confusing at first is that there are two entities named app. The app package is defined by the app directory and the __init__.py script, and is referenced in the from app import routes statement. The app variable is defined as an instance of class Flask in the __init__.py script, which makes it a member of the app package.
